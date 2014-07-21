@@ -34,6 +34,16 @@
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
+
+\usepackage{fancyhdr}
+
+\usepackage{extramarks}
+
+
+
+
+
+
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
@@ -43,19 +53,20 @@
 
 % All information in this block is optional, comment out any lines you don't need
 \title{\LARGE Curriculum Vit\ae{}}
-\address{328 Toftrees APT 345}{State College, PA 16803}
+\address{Department of Astronomy \& Astrophysics -- Center for Exoplanets and Habitable Worlds }{525 Davey Lab University Park, PA 16802}
 \mobile{(360) 870 3029}
 %\phone{(360) 870 3019}
 %\fax{(000) 111 1113}
 \email{rcm242@psu.edu}
 \homepage{www.robertcmorehead.com}{robertcmorehead.com} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 %\extrainfo{additional information}
-%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\photo[70pt][0.4pt]{pictures/picture.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"A witty and playful quotation" - John Smith}
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
+
 
 
 %----------------------------------------------------------------------------------------
@@ -84,169 +95,215 @@
 
 
 
+
+
+
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyhead[R]{\color{gray} Robert C. Morehead | \leftmark}
+\fancypagestyle{plain}{\fancyhead{}}
+
+
+\thispagestyle{plain}
+
 \makecvtitle % Print the CV title
+
+%\cventry{years}{degree/job title}{institution/employer}{localization}{grade}{description}
+%%----------------------------------------------------------------------------------------
+%%	EDUCATION SECTION
+%%----------------------------------------------------------------------------------------
+%
+\section{Education}
+\sectionmark{Education}
+\cventry{2013--2014}{Doctoral Candidate, Astronomy \& Astrophysics}{The Pennsylvania State University}{University Park, PA}{}{Advisor: Eric B. Ford}  % Arguments not required can be left empty
+
+\cventry{2009--2013}{Master of Science, Astronomy}{The University of Florida}{Gainesville, FL}{}{Advisor: Eric B. Ford} 
+
+\cventry{2006--2009}{Bachelor of Science, Astrophysics}{Columbia University}{New York, NY}{}{Advisor: Caleb Scharf} 
+
+\cventry{2004--2006}{}{South Puget Sound Community College}{Olympia, WA}{}{} 
+ 
+ 
+
+
+\section{Awards and Fellowships}
+\sectionmark{Awards and Fellowships}
+\cvitem{2011--2014}{National Science Foundation Graduate Research Fellowship}
+\cvitem{2005}{Phi Theta Kappa}
 
 
 %----------------------------------------------------------------------------------------
 %	Publications SECTION
 %----------------------------------------------------------------------------------------
 %
+
+\newpage
 \section{Publications}
+\sectionmark{Publications}
+\subsection{Publications with Significant Contribution}
+\sectionmark{Publications with Significant Contribution}
+
 \begin{itemize}
- \item \textbf{ Planetary Candidates Observed by Kepler IV: Planet 
-Sample from Q1-Q8 (22 Months) } \\ Burke, C.~J., Bryson, S.~T., Mullally, 
-F., Rowe, J.~F., Christiansen, J.~L., Thompson, S.~E., Coughlin, J.~L., 
-Haas, M.~R., Batalha, N.~M., Caldwell, D.~A., et al.\ The Astrophysical 
-Journal Supplement, Volume 210, Issue 2, article id.~19, <NUMPAGES>12</NUMPAGES> pp.~(2014).\ 
-\\ 
-
- \item \textbf{ Transit timing observations from Kepler - VII. 
-Confirmation of 27 planets in 13 multiplanet systems via transit timing 
-variations and orbital stability } BR Steffen, J.~H., Fabrycky, D.~C., 
-Agol, E., Ford, E.~B., Morehead, R.~C., Cochran, W.~D., Lissauer, J.~J., 
-Adams, E.~R., Borucki, W.~J., Bryson, S., et al.\ Monthly Notices of the 
-Royal Astronomical Society, Volume 428, Issue 2, p.1077-1087 \\ 
-
- \item \textbf{ A Test of Stellar Cohabitation in Multiple Transiting 
-Planet Systems } \\ Morehead, R.~C., Ford, E.~B.\ American Astronomical 
-Society, AAS Meeting \#221, \#343.04 \\ \\ 
+ \item \textbf{ Transit timing observations from Kepler - VII. Confirmation 
+of 27 planets in 13 multiplanet systems via transit timing variations and 
+orbital stability } \\ Steffen, J.~H., Fabrycky, D.~C., Agol, E., Ford, 
+E.~B., \textbf{Morehead, R.~C.}, Cochran, W.~D., Lissauer, J.~J., Adams, E.~R., 
+Borucki, W.~J., Bryson, S., et al.\ Monthly Notices of the Royal 
+Astronomical Society, Volume 428, Issue 2, p.1077-1087 \\ 
 
  \item \textbf{ Constraining the false positive rate for Kepler planet 
 candidates with multicolour photometry from the GTC } \\ Col{\'o}n, K.~D., 
-Ford, E.~B., Morehead, R.~C.\ Monthly Notices of the Royal Astronomical 
-Society, Volume 426, Issue 1, pp.~342-353.\ \\ \\ 
-
- \item \textbf{ Planet Occurrence within 0.25 AU of Solar-type Stars 
-from Kepler } \\ Howard, A.~W., Marcy, G.~W., Bryson, S.~T., Jenkins, 
-J.~M., Rowe, J.~F., Batalha, N.~M., Borucki, W.~J., Koch, D.~G., Dunham, 
-E.~W., Gautier, T.~N., III, et al.\ The Astrophysical Journal Supplement, 
-Volume 201, Issue 2, article id.~15, <NUMPAGES>20</NUMPAGES> pp.~(2012).\ \\ \\ 
+Ford, E.~B., \textbf{Morehead, R.~C.}\ Monthly Notices of the Royal Astronomical 
+Society, Volume 426, Issue 1, pp.~342-353.\ \\ 
 
  \item \textbf{ Constraining the False Positive Rate for Kepler Planet 
 Candidates with Multi-Color Photometry from the GTC } \\ Col{\'o}n, K.~D., 
-Ford, E.~B., Morehead, R.~C.\ eprint arXiv:1207.2481 \\ \\ 
+Ford, E.~B., \textbf{Morehead, R.~C.}\ eprint arXiv:1207.2481 \\ 
 
- \item \textbf{ Transit Timing Observations from Kepler. II. 
-Confirmation of Two Multiplanet Systems via a Non-parametric Correlation 
-Analysis } \\ Ford, E.~B., Fabrycky, D.~C., Steffen, J.~H., Carter, J.~A., 
-Fressin, F., Holman, M.~J., Lissauer, J.~J., Moorhead, A.~V., Morehead, 
-R.~C., Ragozzine, D., et al.\ The Astrophysical Journal, Volume 750, Issue 
-2, article id.~113, <NUMPAGES>18</NUMPAGES> pp.~(2012).\ \\ \\ 
+ \item \textbf{ Transit Timing Observations from Kepler. II. Confirmation 
+of Two Multiplanet Systems via a Non-parametric Correlation Analysis } \\ 
+Ford, E.~B., Fabrycky, D.~C., Steffen, J.~H., Carter, J.~A., Fressin, F., 
+Holman, M.~J., Lissauer, J.~J., Moorhead, A.~V., \textbf{Morehead, R.~C.}, 
+Ragozzine, D., et al.\ The Astrophysical Journal, Volume 750, Issue 2, 
+article id.~113, 18 pp.~(2012).\ \\ 
 
- \item \textbf{ Almost All of Kepler's Multiple-planet Candidates Are 
-Planets } \\ Lissauer, J.~J., Marcy, G.~W., Rowe, J.~F., Bryson, S.~T., 
-Adams, E., Buchhave, L.~A., Ciardi, D.~R., Cochran, W.~D., Fabrycky, D.~C., 
-Ford, E.~B., et al.\ The Astrophysical Journal, Volume 750, Issue 2, 
-article id.~112, <NUMPAGES>15</NUMPAGES> pp.~(2012).\ \\ \\ 
-
- \item \textbf{ Architecture of Kepler's Multi-transiting Systems: II. 
-New investigations with twice as many candidates } \\ Fabrycky, D.~C., 
+ \item \textbf{ Architecture of Kepler's Multi-transiting Systems: II. New 
+investigations with twice as many candidates } \\ Fabrycky, D.~C., 
 Lissauer, J.~J., Ragozzine, D., Rowe, J.~F., Steffen, J.~H., Agol, E., 
 Barclay, T., Batalha, N., Borucki, W., Ciardi, D.~R., et al.\ eprint 
-arXiv:1202.6328 \\ \\ 
+arXiv:1202.6328 \\ 
 
- \item \textbf{ Kepler's candidate multiple transiting planets 
-(Lissauer+, 2011) } \\ Lissauer, J.~J., Ragozzine, D., Fabrycky, D.~C., 
-Steffen, J.~H., Ford, E.~B., Jenkins, J.~M., Shporer, A., Holman, M.~J., 
-Rowe, J.~F., Quintana, E.~V., et al.\ VizieR On-line Data Catalog: 
-J/ApJS/197/8.~ Originally published in: 2011ApJS..197....8L \\ \\ 
 
- \item \textbf{ Architecture and Dynamics of Kepler's Candidate 
-Multiple Transiting Planet Systems } \\ Lissauer, J.~J., Ragozzine, D., 
-Fabrycky, D.~C., Steffen, J.~H., Ford, E.~B., Jenkins, J.~M., Shporer, A., 
-Holman, M.~J., Rowe, J.~F., Quintana, E.~V., et al.\ The Astrophysical 
-Journal Supplement, Volume 197, Issue 1, article id.~8, <NUMPAGES>26</NUMPAGES> pp.~(2011).\ 
-\\ \\ 
+ \item \textbf{ Kepler's candidate multiple transiting planets (Lissauer+, 
+2011) } \\ Lissauer, J.~J., Ragozzine, D., Fabrycky, D.~C., Steffen, J.~H., 
+Ford, E.~B., Jenkins, J.~M., Shporer, A., Holman, M.~J., Rowe, J.~F., 
+Quintana, E.~V., et al.\ VizieR On-line Data Catalog: J/ApJS/197/8.~ 
+Originally published in: 2011ApJS..197....8L \\ 
 
- \item \textbf{ The Distribution of Transit Durations for Kepler 
-Planet Candidates and Implications for Their Orbital Eccentricities } \\ 
-Moorhead, A.~V., Ford, E.~B., Morehead, R.~C., Rowe, J., Borucki, W.~J., 
-Batalha, N.~M., Bryson, S.~T., Caldwell, D.~A., Fabrycky, D.~C., Gautier, 
-T.~N., III, et al.\ The Astrophysical Journal Supplement, Volume 197, Issue 
-1, article id.~1, <NUMPAGES>15</NUMPAGES> pp.~(2011).\ \\ \\ 
+ \item \textbf{ Architecture and Dynamics of Kepler's Candidate Multiple 
+Transiting Planet Systems } \\ Lissauer, J.~J., Ragozzine, D., Fabrycky, 
+D.~C., Steffen, J.~H., Ford, E.~B., Jenkins, J.~M., Shporer, A., Holman, 
+M.~J., Rowe, J.~F., Quintana, E.~V., et al.\ The Astrophysical Journal 
+Supplement, Volume 197, Issue 1, article id.~8, 26 pp.~(2011).\ \\ 
 
- \item \textbf{ Enhancing Multiple-Transiting Planet System Validation 
-with Transit Duration Ratios } \\ Morehead, R.~C., Ford, E.~B., Pr{\v s}a, 
-A., Ragozzine, D.\ American Astronomical Society, ESS meeting \#2, \#28.01 
-\\ \\ 
+ \item \textbf{ The Distribution of Transit Durations for Kepler Planet 
+Candidates and Implications for Their Orbital Eccentricities } \\ Moorhead, 
+A.~V., Ford, E.~B., \textbf{Morehead, R.~C.}, Rowe, J., Borucki, W.~J., Batalha, 
+N.~M., Bryson, S.~T., Caldwell, D.~A., Fabrycky, D.~C., Gautier, T.~N., 
+III, et al.\ The Astrophysical Journal Supplement, Volume 197, Issue 1, 
+article id.~1, 15 pp.~(2011).\ \\ 
 
- \item \textbf{ Kepler's First Rocky Planet: Kepler-10b } \\ Batalha, 
-N.~M., Borucki, W.~J., Bryson, S.~T., Buchhave, L.~A., Caldwell, D.~A., 
-Christensen-Dalsgaard, J., Ciardi, D., Dunham, E.~W., Fressin, F., Gautier, 
-T.~N., III, et al.\ The Astrophysical Journal, Volume 729, Issue 1, article 
-id.~27, <NUMPAGES>21</NUMPAGES> pp.~(2011).\ \\ \\ 
+ \item \textbf{ A closely packed system of low-mass, low-density planets 
+transiting Kepler-11 } \\ Lissauer, J.~J., Fabrycky, D.~C., Ford, E.~B., 
+Borucki, W.~J., Fressin, F., Marcy, G.~W., Orosz, J.~A., Rowe, J.~F., 
+Torres, G., Welsh, W.~F., et al.\ Nature, Volume 470, Issue 7332, pp.~53-58 
+(2011).\ \\ 
 
- \item \textbf{ A closely packed system of low-mass, low-density 
-planets transiting Kepler-11 } \\ Lissauer, J.~J., Fabrycky, D.~C., Ford, 
-E.~B., Borucki, W.~J., Fressin, F., Marcy, G.~W., Orosz, J.~A., Rowe, 
-J.~F., Torres, G., Welsh, W.~F., et al.\ Nature, Volume 470, Issue 7332, 
-pp.~53-58 (2011).\ \\ \\ 
-
- \item \textbf{ Validation of Candidate Multiple-Transiting Planet 
-Systems and Assessing Possible False Positives based on Photometric 
-Observables } \\ Morehead, R., Ford, E.~B., Kepler Science Team American 
-Astronomical Society, AAS Meeting \#217, \#140.09; <ALTJOURNAL>Bulletin of the 
-American Astronomical Society, Vol.~43, 2011</ALTJOURNAL> \\ \\ 
-
- \item \textbf{ The Distribution of Orbital Eccentricities for Kepler 
-Planet Candidates } \\ Moorhead, A., Ford, E.~B., Morehead, R., Kepler 
-Science Team American Astronomical Society, AAS Meeting \#217, \#103.06; 
-<ALTJOURNAL>Bulletin of the American Astronomical Society, Vol.~43, 2011</ALTJOURNAL> \\ \\ 
 
  \item \textbf{ The Architectures of Planetary Systems from Transit 
 Observations } \\ Ford, E.~B., Fabrycky, D.~C., Holman, M.~J., Lissauer, 
-J.~J., Moorhead, A.~V., Morehead, R.~C., Ragozzine, D., Steffen, J.~H., 
+J.~J., Moorhead, A.~V., \textbf{Morehead, R.~C.}, Ragozzine, D., Steffen, J.~H., 
 Koch, D., Kepler Science Team American Astronomical Society, AAS Meeting 
-\#217, \#103.05; <ALTJOURNAL>Bulletin of the American Astronomical Society, Vol.~43, 
-2011</ALTJOURNAL> \\ \\ 
+\#217, \#103.05; Bulletin of the American Astronomical Society, Vol.~43, 
+2011 \\ 
 
  \item \textbf{ Five Kepler Target Stars That Show Multiple Transiting 
 Exoplanet Candidates } \\ Steffen, J.~H., Batalha, N.~M., Borucki, W.~J., 
 Buchhave, L.~A., Caldwell, D.~A., Cochran, W.~D., Endl, M., Fabrycky, 
 D.~C., Fressin, F., Ford, E.~B., et al.\ The Astrophysical Journal, Volume 
-725, Issue 1, pp.~1226-1241 (2010).\ \\ \\ 
+725, Issue 1, pp.~1226-1241 (2010).\ \\ 
 
  \item \textbf{ Kepler-9: A System of Multiple Planets Transiting a 
 Sun-Like Star, Confirmed by Timing Variations } \\ Holman, M.~J., Fabrycky, 
 D.~C., Ragozzine, D., Ford, E.~B., Steffen, J.~H., Welsh, W.~F., Lissauer, 
 J.~J., Latham, D.~W., Marcy, G.~W., Walkowicz, L.~M., et al.\ Science, 
-Volume 330, Issue 6000, pp.~51- (2010).\ \\ \\ 
+Volume 330, Issue 6000, pp.~51- (2010).\ \\ 
 
- \item \textbf{ Ground-based Multisite Observations of Two Transits of 
-HD 80606b } \\ Shporer, A., Winn, J.~N., Dreizler, S., Col{\'o}n, K.~D., 
+ \item \textbf{ Discovery of a Low-mass Companion to a Metal-rich F Star 
+with the MARVELS Pilot Project } \\ Fleming, S.~W., Ge, J., Mahadevan, S., 
+Lee, B., Eastman, J.~D., Siverd, R.~J., Gaudi, B.~S., Niedzielski, A., 
+Sivarani, T., Stassun, K.~G., et al.\ The Astrophysical Journal, Volume 
+718, Issue 2, pp.~1186-1199 (2010).\ \\ 
+
+
+\end{itemize}
+
+\newpage
+\subsection{Other Peer-Reviewed Publications}
+\sectionmark{Other Peer-Reviewed Publications}
+\begin{itemize}
+\item \textbf{ Planetary Candidates Observed by Kepler IV: Planet Sample 
+from Q1-Q8 (22 Months) } \\ Burke, C.~J., Bryson, S.~T., Mullally, F., 
+Rowe, J.~F., Christiansen, J.~L., Thompson, S.~E., Coughlin, J.~L., Haas, 
+M.~R., Batalha, N.~M., Caldwell, D.~A., et al.\ The Astrophysical Journal 
+Supplement, Volume 210, Issue 2, article id.~19, 12 pp.~(2014).\ \\ 
+
+ \item \textbf{ Planet Occurrence within 0.25 AU of Solar-type Stars from 
+Kepler } \\ Howard, A.~W., Marcy, G.~W., Bryson, S.~T., Jenkins, J.~M., 
+Rowe, J.~F., Batalha, N.~M., Borucki, W.~J., Koch, D.~G., Dunham, E.~W., 
+Gautier, T.~N., III, et al.\ The Astrophysical Journal Supplement, Volume 
+201, Issue 2, article id.~15, 20 pp.~(2012).\ \\ 
+
+
+ \item \textbf{ Almost All of Kepler's Multiple-planet Candidates Are 
+Planets } \\ Lissauer, J.~J., Marcy, G.~W., Rowe, J.~F., Bryson, S.~T., 
+Adams, E., Buchhave, L.~A., Ciardi, D.~R., Cochran, W.~D., Fabrycky, D.~C., 
+Ford, E.~B., et al.\ The Astrophysical Journal, Volume 750, Issue 2, 
+article id.~112, 15 pp.~(2012).\ \\ 
+
+ \item \textbf{ Kepler's First Rocky Planet: Kepler-10b } \\ Batalha, 
+N.~M., Borucki, W.~J., Bryson, S.~T., Buchhave, L.~A., Caldwell, D.~A., 
+Christensen-Dalsgaard, J., Ciardi, D., Dunham, E.~W., Fressin, F., Gautier, 
+T.~N., III, et al.\ The Astrophysical Journal, Volume 729, Issue 1, article 
+id.~27, 21 pp.~(2011).\ \\ 
+
+ \item \textbf{ Ground-based Multisite Observations of Two Transits of HD 
+80606b } \\ Shporer, A., Winn, J.~N., Dreizler, S., Col{\'o}n, K.~D., 
 Wood-Vasey, W.~M., Choi, P.~I., Morley, C., Moutou, C., Welsh, W.~F., 
 Pollaco, D., et al.\ The Astrophysical Journal, Volume 722, Issue 1, 
-pp.~880-887 (2010).\ \\ \\ 
+pp.~880-887 (2010).\ \\ 
 
- \item \textbf{ Discovery of a Low-mass Companion to a Metal-rich F 
-Star with the MARVELS Pilot Project } \\ Fleming, S.~W., Ge, J., Mahadevan, 
-S., Lee, B., Eastman, J.~D., Siverd, R.~J., Gaudi, B.~S., Niedzielski, A., 
-Sivarani, T., Stassun, K.~G., et al.\ The Astrophysical Journal, Volume 
-718, Issue 2, pp.~1186-1199 (2010).\ \\ \\ 
+
+\end{itemize}
+
+\newpage
+\subsection{Other Publications and Conference Abstracts}
+\sectionmark{Other Publications and Conference Abstracts}
+\begin{itemize}
+ \item \textbf{ A Test of Stellar Cohabitation in Multiple Transiting 
+Planet Systems } \\ \textbf{Morehead, R.~C.}, Ford, E.~B.\ American Astronomical 
+Society, AAS Meeting \#221, \#343.04 \\ 
+
+
+ \item \textbf{ Enhancing Multiple-Transiting Planet System Validation with 
+Transit Duration Ratios } \\ \textbf{Morehead, R.~C.}, Ford, E.~B., Pr{\v s}a, A., 
+Ragozzine, D.\ American Astronomical Society, ESS meeting \#2, \#28.01 \\ 
+
+
+ \item \textbf{ Validation of Candidate Multiple-Transiting Planet Systems 
+and Assessing Possible False Positives based on Photometric Observables } 
+\\ \textbf{Morehead, R.}, Ford, E.~B., Kepler Science Team American Astronomical 
+Society, AAS Meeting \#217, \#140.09; Bulletin of the American 
+Astronomical Society, Vol.~43, 2011 \\ 
+
+ \item \textbf{ The Distribution of Orbital Eccentricities for Kepler 
+Planet Candidates } \\ Moorhead, A., Ford, E.~B., \textbf{Morehead, R.}, Kepler 
+Science Team American Astronomical Society, AAS Meeting \#217, \#103.06; 
+Bulletin of the American Astronomical Society, Vol.~43, 2011 \\ 
 
  \item \textbf{ Status of a Program Monitoring Optical Lunar Surface 
 Transients } \\ Crotts, A.~P.~S., Berger, A., Cecil, G., Cseresnjes, P., 
-Ebel, D., Hickson, P., Joner, M., Pfrommer, T., Marka, S., Morehead, R., et 
+Ebel, D., Hickson, P., Joner, M., Pfrommer, T., Marka, S., \textbf{ Morehead, R.}, et 
 al.\ 40th Lunar and Planetary Science Conference, (Lunar and Planetary 
-Science XL), held March 23-27, 2009 in The Woodlands, Texas, id.2373 \\ \\ 
+Science XL), held March 23-27, 2009 in The Woodlands, Texas, id.2373 \\ 
 \end{itemize}
 
 
-%%----------------------------------------------------------------------------------------
-%%	EDUCATION SECTION
-%%----------------------------------------------------------------------------------------
-%
-%\section{Education}
-%
-%\cventry{2011--2012}{Masters of Commerce}{The University of California}{Berkeley}{\textit{GPA -- 8.0}}{First Class Honours}  % Arguments not required can be left empty
-%\cventry{2007--2010}{Bachelor of Business Studies}{The University of California}{Berkeley}{\textit{GPA -- 7.5}}{Specialized in Commerce}
-%
-%\section{Masters Thesis}
-%
-%\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
-%\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
-%\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
-%
+
+
+
+
 %%----------------------------------------------------------------------------------------
 %%	WORK EXPERIENCE SECTION
 %%----------------------------------------------------------------------------------------
